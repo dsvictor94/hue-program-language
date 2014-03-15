@@ -5,7 +5,7 @@ hue program language
 ####or as module:
 ```
 import hue
-he.run(yourcode)
+hue.run(yourcode)
 ```
 
 ##commands reference
