@@ -1,36 +1,24 @@
 hue program language
 ====================
-Usage:
-=====
+##Usage:
   `python hue.py yourhue.hue`
+####or as module:
+```
+import hue
+he.run(yourcode)
+```
 
-or as module:
--------------
-` import hue
-  hue.run()
-`
-
-commands relaction
-==================
-+----------+-----------+
+##commands reference
 |   hue    | brainfuck |
-+----------+-----------+
+|----------|-----------|
 | h        | >         |
-+----------+-----------+
 | hu       | <         |
-+----------+-----------+
 | hue      | +         |
-+----------+-----------+
 | hueh     | -         |
-+----------+-----------+
 | huehu    | .         |
-+----------+-----------+
 | huehue   | ,         |
-+----------+-----------+
 | huehueh  | [         |
-+----------+-----------+
 | huehuehu | ]         |
-+----------+-----------+
 
-see <https://www.facebook.com/photo.php?fbid=645866465460967> to undertend de impiration to this imterpreter
-------------------------------------------------------------------------------------------------------------
+
+**see https://www.facebook.com/photo.php?fbid=645866465460967 to understand the inspiration to build this interpreter.**
