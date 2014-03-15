@@ -1,5 +1,5 @@
-hue program language
-====================
+#hue program language
+
 ##Usage:
   `python hue.py yourhue.hue`
 ####or as module:
